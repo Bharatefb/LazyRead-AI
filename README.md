@@ -35,7 +35,7 @@ To try the project locally, follow the installation instructions below.
 
 Code
 
-GitHub repository: LazyRead-AI
+GitHub repository: https://github.com/Bharatefb/LazyRead-AI
 
 Technology stack
 Technology	Purpose
@@ -47,6 +47,7 @@ HTML	Extension interface
 CSS	Popup styling
 JavaScript	Webpage extraction and backend communication
 Chrome Manifest V3	Browser extension architecture
+
 Project structure
 LazyRead-AI/
 ├── app.py
@@ -168,7 +169,7 @@ ollama pull qwen2.5:1.5b
 
 Replace the placeholder URL with your actual GitHub repository URL.
 
-git clone https://github.com/YOUR_USERNAME/LazyRead-AI.git
+git clone https://github.com/Bharatefb/LazyRead-AI.git
 cd LazyRead-AI
 
 3. Create and activate a virtual environment
