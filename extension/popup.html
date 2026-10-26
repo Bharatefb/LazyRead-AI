@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LazyRead-AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div class="logo">L</div>
+      <div>
+        <h1>LazyRead<span>-AI</span></h1>
+        <p>Don't read everything. Understand what matters.</p>
+      </div>
+    </header>
+
+    <div class="local-status">
+      <span class="dot"></span>
+      Local AI · Qwen2.5:1.5B
+    </div>
+
+    <button id="summarize">Find what matters →</button>
+    <p id="status" role="status">Ready when you are.</p>
+
+    <section id="results" hidden>
+      <div class="section-heading">THE BIG PICTURE</div>
+      <p id="mainIdea" class="main-idea"></p>
+
+      <div class="section-heading">KEY POINTERS</div>
+      <ul id="keyPoints"></ul>
+
+      <div class="takeaway">
+        <div class="section-heading">REMEMBER THIS</div>
+        <p id="takeaway"></p>
+      </div>
+
+      <div class="time-row">
+        <span id="timeSaved"></span>
+        <button id="copySummary" class="copy-button" type="button">
+          Copy summary
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <span class="footer-dot"></span>
+      Private by design · Powered by local AI
+    </footer>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>

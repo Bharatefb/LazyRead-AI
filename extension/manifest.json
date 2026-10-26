@@ -1,0 +1,18 @@
+
+{
+  "manifest_version": 3,
+  "name": "LazyRead-AI",
+  "version": "1.0.0",
+  "description": "Don't read everything. Understand what matters.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:5000/*"
+  ],
+  "action": {
+    "default_title": "LazyRead-AI",
+    "default_popup": "popup.html"
+  }
+}
